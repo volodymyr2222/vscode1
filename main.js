@@ -1,3 +1,4 @@
+// 1 taska
 let dataTypes;
 console.log(typeof dataTypes);
 
@@ -27,3 +28,14 @@ dataTypes = {
     age: 22
 }
 console.log(typeof dataTypes);
+
+
+
+// 2 taska
+
+let srt = '22';
+console.log(srt);
+
+srt = Number(srt);
+console.log(typeof srt);
+
