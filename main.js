@@ -44,13 +44,13 @@ console.log(typeof srt);
 let nam = 12;
 console.log(nam);
 
-let nam = String(nam);
+nam = String(nam);
 console.log(typeof nam);
 
 
 // taska 3
 
-let dataTypes = true;
+dataTypes = true;
 console.log(typeof dataTypes);
 
 dataTypes = String(dataTypes);
@@ -61,10 +61,10 @@ console.log(typeof dataTypes);
 
 
 
-let dataTypes = 22;
+dataTypes = 22;
 console.log(dataTypes);
 
-let dataTypes = String(dataTypes);
+dataTypes = String(dataTypes);
 console.log(typeof dataTypes);
 
 
@@ -72,33 +72,32 @@ console.log(typeof dataTypes);
 
 
 
-let dataTypes = Symbol("ad");
+dataTypes = Symbol("ad");
 console.log(typeof dataTypes);
 
-let dataTypes = String(dataTypes);
-console.log(typeof dataTypes);
-
-
-
-
-
-let dataTypes = null;
-console.log(typeof dataTypes);
-
-let dataTypes = String(dataTypes);
+dataTypes = String(dataTypes);
 console.log(typeof dataTypes);
 
 
 
 
-
-
-let dataTypes = 22n;
+dataTypes = null;
 console.log(typeof dataTypes);
 
-let dataTypes = String(dataTypes);
+dataTypes = String(dataTypes);
 console.log(typeof dataTypes);
 
+
+
+
+
+dataTypes = 22n;
+console.log(typeof dataTypes);
+
+dataTypes = String(dataTypes);
+console.log(typeof dataTypes);
+
+//22
 
 
 
