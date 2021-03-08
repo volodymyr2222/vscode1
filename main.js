@@ -1,4 +1,4 @@
-// 1 taska
+// 1 taska Типи даних!!!
 let dataTypes;
 console.log(typeof dataTypes);
 
@@ -59,15 +59,11 @@ console.log(typeof dataTypes);
 
 
 
-
-
 dataTypes = 22;
 console.log(dataTypes);
 
 dataTypes = String(dataTypes);
 console.log(typeof dataTypes);
-
-
 
 
 
@@ -80,14 +76,11 @@ console.log(typeof dataTypes);
 
 
 
-
 dataTypes = null;
 console.log(typeof dataTypes);
 
 dataTypes = String(dataTypes);
 console.log(typeof dataTypes);
-
-
 
 
 
@@ -97,10 +90,48 @@ console.log(typeof dataTypes);
 dataTypes = String(dataTypes);
 console.log(typeof dataTypes);
 
-//22
+//task 5 Цикли!
+
+for (let a = 1; a < 11; a++) {
+    console.log(a);
+}
+
+for (let b = 10; b > 0; b--) {
+    console.log(b);
+}
+
+//task 6
+
+for (let evenNumbers = 2; evenNumbers <= 20; evenNumbers++) {
+    if (evenNumbers % 2 == 0){
+        console.log(evenNumbers);
+    }
+}
+
+
+for (let oddNumbers = 1; oddNumbers <= 20; oddNumbers++) {
+    if (oddNumbers % 2 == 1){
+    console.log(oddNumbers);
+    }
+  }
+  
+
+let v = 1;
+ while(v < 20) {
+  v++;
+  if(v % 2) 
+  console.log(v);
+}
+
+let m = 1;
+ while(m < 20) {
+  m++;
+  if(m % 2 == 0) 
+  console.log(m);
+}
 
 
 
 
-
+((a, b) => {do {a&1 && console.log(a)} while (++a <= b)}) (1, 20)
 
