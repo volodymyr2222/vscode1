@@ -132,6 +132,23 @@ let m = 1;
 
 
 
+//11
 
-((a, b) => {do {a&1 && console.log(a)} while (++a <= b)}) (1, 20)
+let z = 1;
+do {
+    if(z % 2 == 0)
+    console.log(z);
+    z++
+} while(z < 20);
+
+
+let p = 1;
+do {
+    if(p % 2)
+    console.log(p);
+    p++
+} while(p < 20);
+
+
+
 
