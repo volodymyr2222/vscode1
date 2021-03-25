@@ -5,10 +5,27 @@ function factorial(n) {
   
   console.log( factorial(2) ); 
 
-  //taska 2 
-  let condition = (year == 2015); // преобразуется к true или false
 
-  if (condition) {
-    console.log(condition)
+
+
+  //taska 2 
+  
+
+  let currentDate = prompt('Який зараз рік?','')
+  let yearOfBirth = prompt('Рік твого народження?','')
+  function sum() {
+      let result = currentDate - yearOfBirth;
+      console.log(result);
+      
+      return result;
+      
+      
   }
   
+  if (sum() < 12) {
+      alert('ur kid');
+  } else if (sum() < 18) {
+      alert('ur teen'); 
+  } else {
+      alert('ur adult')
+  }
