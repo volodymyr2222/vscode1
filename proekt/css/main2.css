@@ -1,0 +1,33 @@
+body{
+    background-image: url(../img/gg.jpg);
+}
+.container{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    margin: 250px auto 0 auto;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.class1{
+padding: 30px 305px 0 0;
+margin: 20px 0 0 0;
+}
+.class2{
+    padding: 0 270px 0 0;
+    margin: 20px 0 0 0;
+}
+.user{
+width: 350px;
+height: 15px;
+}
+.pass{
+    width: 350px;
+    height: 15px;
+}
+.sub{
+  padding: 13px 20px;  
+  margin: 15px 0 20px 0;
+  font-weight: 700;
+}
